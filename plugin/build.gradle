@@ -13,7 +13,7 @@ targetCompatibility = "7"
 /**
  * 上传到本地仓库的插件信息配置   工程项目配置 仓库中的插件路径  classpath 'com.enjoy:jiagu:1.0'
  */
-apply plugin:'maven-publish'
+/*apply plugin:'maven-publish'
 publishing{
     publications{
         Jiagu(MavenPublication){
@@ -23,4 +23,8 @@ publishing{
             version "1.0"
         }
     }
-}
+}*/
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.jp201314'
+
