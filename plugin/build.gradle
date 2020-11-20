@@ -1,0 +1,26 @@
+apply plugin: 'groovy'
+// 根节点添加
+version = "0.0.1"
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.tools.build:gradle:3.5.2'
+    implementation gradleApi()
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
+
+/**
+ * 上传到本地仓库的插件信息配置   工程项目配置 仓库中的插件路径  classpath 'com.enjoy:jiagu:1.0'
+ */
+apply plugin:'maven-publish'
+publishing{
+    publications{
+        Jiagu(MavenPublication){
+            from components.java  //要把源码生成的jar包上传
+            groupId 'com.enjoy'
+            artifactId "jiagu"
+            version "1.0"
+        }
+    }
+}
