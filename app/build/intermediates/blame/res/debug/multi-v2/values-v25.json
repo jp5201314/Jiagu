@@ -4,7 +4,7 @@
             "outputFile": "/Library/android_project/Jiagu/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/a833d0b3344ee8a5fa8a0ffcaa1d75d2/appcompat-1.1.0/res/values-v25/values-v25.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/a6f740f8e132a77cfd2930051c946f7d/appcompat-1.1.0/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

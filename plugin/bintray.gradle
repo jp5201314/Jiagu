@@ -1,0 +1,39 @@
+apply plugin: 'com.novoda.bintray-release'
+//https://www.jianshu.com/p/b4c46ee78b2f
+/**
+ * 配置完毕后执行命令
+ ./gradlew clean build bintrayUpload -PbintrayUser=bintary的用户名 -PbintrayKey=创建的仓库的key -PdryRun=false
+ */
+allprojects {
+    repositories {
+        jcenter()
+    }
+    tasks.withType(Javadoc) {
+        options{
+            encoding "UTF-8"
+            charSet 'UTF-8'
+            links "http://docs.oracle.com/javase/7/docs/api"
+        }
+        options.addStringOption('Xdoclint:none', '-quiet')
+    }
+}
+
+
+def siteUrl = 'https://github.com/jp5201314/Jiagu'   // 项目的主页
+
+publish {
+    userOrg = 'jason5201314'      //bintray注册的用户名
+    repoName = 'plugin_libary'    //仓库名
+    uploadName = 'Jiagu'         //上传的仓库中的包名称，不设置默认artifactId 名称
+    groupId = 'com.enjoy'         //compile引用时的第1部分groupId
+    artifactId = 'jiagu'     //compile引用时的第2部分项目名
+    publishVersion = '1.0.0'    //compile引用时的第3部分版本号
+    desc = '360加固一键完成'
+    website = siteUrl
+}
+
+
+
+
+
+

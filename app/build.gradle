@@ -2,11 +2,11 @@
 apply plugin: 'com.android.application'
 
 apply plugin:'com.enjoy.jiagu'
-
+///例 Library/360jiagubao_mac/jiagu/jiagu.jar  360加固应用目录
 jiagu{
-    userName '360U3190525523'
-    password 'q8851551'
-    jiaguTools '/Library/360jiagubao_mac/jiagu/jiagu.jar'
+    userName  '360加固账号'
+    password '360加固密码'
+    jiaguTools '360加固应用目录'
 }
 
 

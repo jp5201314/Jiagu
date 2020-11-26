@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->/Library/android_project/Jiagu/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fd3a12d7905757f7d95ae384113f1f3e/core-1.1.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9a644b19e57c60c0fd4a346adbfa39ee/core-1.1.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->/Library/android_project/Jiagu/app/src/main/AndroidManifest.xml:7:9-43

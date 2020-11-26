@@ -4,7 +4,7 @@
             "outputFile": "/Library/android_project/Jiagu/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/fd3a12d7905757f7d95ae384113f1f3e/core-1.1.0/res/values-ro/values-ro.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/9a644b19e57c60c0fd4a346adbfa39ee/core-1.1.0/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/a833d0b3344ee8a5fa8a0ffcaa1d75d2/appcompat-1.1.0/res/values-ro/values-ro.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/a6f740f8e132a77cfd2930051c946f7d/appcompat-1.1.0/res/values-ro/values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
